@@ -3,11 +3,12 @@
 ## English
 
 ### Overview
-The **Rename File Application** is a Windows Forms application built with .NET 8 and C# 12. It provides a simple and user-friendly interface to rename files on your system. The application ensures error handling, file validation, and supports overwrite prompts for existing files.
+The **Rename File Application** is a Windows Forms application built with .NET 8 and C# 12. It provides a simple and user-friendly interface to rename files on your system. This application was specifically designed to handle files with long names that cannot be copied or renamed using traditional methods like PowerShell or Command Prompt. The application ensures error handling, file validation, and supports overwrite prompts for existing files.
 
 ### Features
 - Select a file to rename using a file dialog.
 - Save the renamed file to a new location.
+- Handle files with long names that are otherwise difficult to manage.
 - Validate file paths and handle errors gracefully.
 - Overwrite prompt for existing destination files.
 
@@ -38,11 +39,12 @@ The **Rename File Application** is a Windows Forms application built with .NET 8
 ## فارسی
 
 ### معرفی
-**برنامه تغییر نام فایل** یک برنامه ویندوزی است که با استفاده از .NET 8 و C# 12 ساخته شده است. این برنامه یک رابط کاربری ساده و کاربرپسند برای تغییر نام فایل‌ها در سیستم شما ارائه می‌دهد. این برنامه از مدیریت خطا، اعتبارسنجی فایل و پشتیبانی از اعلان بازنویسی برای فایل‌های موجود پشتیبانی می‌کند.
+**برنامه تغییر نام فایل** یک برنامه ویندوزی است که با استفاده از .NET 8 و C# 12 ساخته شده است. این برنامه یک رابط کاربری ساده و کاربرپسند برای تغییر نام فایل‌ها در سیستم شما ارائه می‌دهد. این برنامه به طور خاص برای مدیریت فایل‌هایی طراحی شده است که به دلیل طولانی بودن نامشان نمی‌توان آن‌ها را با روش‌های معمول مانند PowerShell یا Command Prompt کپی یا تغییر نام داد. این برنامه از مدیریت خطا، اعتبارسنجی فایل و پشتیبانی از اعلان بازنویسی برای فایل‌های موجود پشتیبانی می‌کند.
 
 ### ویژگی‌ها
 - انتخاب فایل برای تغییر نام با استفاده از دیالوگ فایل.
 - ذخیره فایل تغییر نام داده شده در مکان جدید.
+- مدیریت فایل‌هایی با نام‌های طولانی که به‌طور معمول قابل تغییر نیستند.
 - اعتبارسنجی مسیر فایل و مدیریت خطاها.
 - اعلان بازنویسی برای فایل‌های مقصد موجود.
 
